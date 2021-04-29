@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Hackathon.Testng_CalculateTripCost" duration-ms="84726" started-at="2021-04-15T18:01:28 IST" finished-at="2021-04-15T18:02:53 IST">
+    <groups>
+      <group name="Hotels">
+        <method signature="Testng_CalculateTripCost.GetHotelScreenShots()[pri:8, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="GetHotelScreenShots" class="Hackathon.Testng_CalculateTripCost"/>
+        <method signature="Testng_CalculateTripCost.HotelDetails()[pri:7, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="HotelDetails" class="Hackathon.Testng_CalculateTripCost"/>
+        <method signature="Testng_CalculateTripCost.LiftAccess()[pri:6, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="LiftAccess" class="Hackathon.Testng_CalculateTripCost"/>
+        <method signature="Testng_CalculateTripCost.NoOfGuests()[pri:4, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="NoOfGuests" class="Hackathon.Testng_CalculateTripCost"/>
+        <method signature="Testng_CalculateTripCost.RatingSort()[pri:5, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="RatingSort" class="Hackathon.Testng_CalculateTripCost"/>
+        <method signature="Testng_CalculateTripCost.SearchDestination()[pri:1, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="SearchDestination" class="Hackathon.Testng_CalculateTripCost"/>
+        <method signature="Testng_CalculateTripCost.ClickHolidayHomesButton()[pri:2, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="ClickHolidayHomesButton" class="Hackathon.Testng_CalculateTripCost"/>
+        <method signature="Testng_CalculateTripCost.SetDate()[pri:3, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="SetDate" class="Hackathon.Testng_CalculateTripCost"/>
+        <method signature="Testng_CalculateTripCost.SetUrl()[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="SetUrl" class="Hackathon.Testng_CalculateTripCost"/>
+      </group> <!-- Hotels -->
+      <group name="Cruises">
+        <method signature="Testng_CalculateTripCost.SetCruises()[pri:9, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="SetCruises" class="Hackathon.Testng_CalculateTripCost"/>
+        <method signature="Testng_CalculateTripCost.GetCruiseDetails()[pri:10, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="GetCruiseDetails" class="Hackathon.Testng_CalculateTripCost"/>
+      </group> <!-- Cruises -->
+    </groups>
+    <test name="Command line test" duration-ms="84726" started-at="2021-04-15T18:01:28 IST" finished-at="2021-04-15T18:02:53 IST">
+      <class name="Hackathon.Testng_CalculateTripCost">
+        <test-method status="PASS" signature="SetDrivers()[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="SetDrivers" is-config="true" duration-ms="5994" started-at="2021-04-15T18:01:22 IST" finished-at="2021-04-15T18:01:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDrivers -->
+        <test-method status="PASS" signature="SetUrl()[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="SetUrl" duration-ms="4679" started-at="2021-04-15T18:01:28 IST" finished-at="2021-04-15T18:01:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUrl -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="screenShot" is-config="true" duration-ms="4" started-at="2021-04-15T18:01:33 IST" finished-at="2021-04-15T18:01:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SetUrl status=SUCCESS method=Testng_CalculateTripCost.SetUrl()[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="SearchDestination()[pri:1, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="SearchDestination" duration-ms="9110" started-at="2021-04-15T18:01:33 IST" finished-at="2021-04-15T18:01:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchDestination -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="screenShot" is-config="true" duration-ms="1" started-at="2021-04-15T18:01:42 IST" finished-at="2021-04-15T18:01:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchDestination status=SUCCESS method=Testng_CalculateTripCost.SearchDestination()[pri:1, instance:Hackathon.Testng_CalculateTripCost@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="ClickHolidayHomesButton()[pri:2, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="ClickHolidayHomesButton" duration-ms="22357" started-at="2021-04-15T18:01:42 IST" depends-on-methods="Hackathon.Testng_CalculateTripCost.SearchDestination" finished-at="2021-04-15T18:02:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickHolidayHomesButton -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="screenShot" is-config="true" duration-ms="0" started-at="2021-04-15T18:02:05 IST" finished-at="2021-04-15T18:02:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickHolidayHomesButton status=SUCCESS method=Testng_CalculateTripCost.ClickHolidayHomesButton()[pri:2, instance:Hackathon.Testng_CalculateTripCost@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="SetDate()[pri:3, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="SetDate" duration-ms="3091" started-at="2021-04-15T18:02:05 IST" finished-at="2021-04-15T18:02:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDate -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="screenShot" is-config="true" duration-ms="1" started-at="2021-04-15T18:02:08 IST" finished-at="2021-04-15T18:02:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SetDate status=SUCCESS method=Testng_CalculateTripCost.SetDate()[pri:3, instance:Hackathon.Testng_CalculateTripCost@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="NoOfGuests()[pri:4, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="NoOfGuests" duration-ms="1644" started-at="2021-04-15T18:02:08 IST" finished-at="2021-04-15T18:02:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NoOfGuests -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="screenShot" is-config="true" duration-ms="0" started-at="2021-04-15T18:02:09 IST" finished-at="2021-04-15T18:02:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NoOfGuests status=SUCCESS method=Testng_CalculateTripCost.NoOfGuests()[pri:4, instance:Hackathon.Testng_CalculateTripCost@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="RatingSort()[pri:5, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="RatingSort" duration-ms="6063" started-at="2021-04-15T18:02:09 IST" finished-at="2021-04-15T18:02:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RatingSort -->
+        <test-method status="PASS" signature="LiftAccess()[pri:6, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="LiftAccess" duration-ms="2520" started-at="2021-04-15T18:02:15 IST" finished-at="2021-04-15T18:02:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LiftAccess -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="screenShot" is-config="true" duration-ms="0" started-at="2021-04-15T18:02:15 IST" finished-at="2021-04-15T18:02:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RatingSort status=SUCCESS method=Testng_CalculateTripCost.RatingSort()[pri:5, instance:Hackathon.Testng_CalculateTripCost@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="screenShot" is-config="true" duration-ms="1" started-at="2021-04-15T18:02:18 IST" finished-at="2021-04-15T18:02:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LiftAccess status=SUCCESS method=Testng_CalculateTripCost.LiftAccess()[pri:6, instance:Hackathon.Testng_CalculateTripCost@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="HotelDetails()[pri:7, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="HotelDetails" duration-ms="2187" started-at="2021-04-15T18:02:18 IST" finished-at="2021-04-15T18:02:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelDetails -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="screenShot" is-config="true" duration-ms="0" started-at="2021-04-15T18:02:20 IST" finished-at="2021-04-15T18:02:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HotelDetails status=SUCCESS method=Testng_CalculateTripCost.HotelDetails()[pri:7, instance:Hackathon.Testng_CalculateTripCost@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="GetHotelScreenShots()[pri:8, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="GetHotelScreenShots" duration-ms="18279" started-at="2021-04-15T18:02:20 IST" finished-at="2021-04-15T18:02:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetHotelScreenShots -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="screenShot" is-config="true" duration-ms="1" started-at="2021-04-15T18:02:38 IST" finished-at="2021-04-15T18:02:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetHotelScreenShots status=SUCCESS method=Testng_CalculateTripCost.GetHotelScreenShots()[pri:8, instance:Hackathon.Testng_CalculateTripCost@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="SetCruises()[pri:9, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="SetCruises" duration-ms="9038" started-at="2021-04-15T18:02:38 IST" finished-at="2021-04-15T18:02:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetCruises -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="screenShot" is-config="true" duration-ms="1" started-at="2021-04-15T18:02:47 IST" finished-at="2021-04-15T18:02:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SetCruises status=SUCCESS method=Testng_CalculateTripCost.SetCruises()[pri:9, instance:Hackathon.Testng_CalculateTripCost@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="GetCruiseDetails()[pri:10, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="GetCruiseDetails" duration-ms="5596" started-at="2021-04-15T18:02:47 IST" depends-on-methods="Hackathon.Testng_CalculateTripCost.SetCruises" finished-at="2021-04-15T18:02:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCruiseDetails -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="screenShot" is-config="true" duration-ms="0" started-at="2021-04-15T18:02:53 IST" finished-at="2021-04-15T18:02:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetCruiseDetails status=SUCCESS method=Testng_CalculateTripCost.GetCruiseDetails()[pri:10, instance:Hackathon.Testng_CalculateTripCost@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Hackathon.Testng_CalculateTripCost@47ef968d]" name="CloseBrowser" is-config="true" duration-ms="1602" started-at="2021-04-15T18:02:53 IST" finished-at="2021-04-15T18:02:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Hackathon.Testng_CalculateTripCost -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Hackathon.Testng_CalculateTripCost -->
+</testng-results>
