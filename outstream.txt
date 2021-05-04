@@ -1,9 +1,0 @@
-PrintStream out=null;
-try{
-out=new PrintStream(new FileOutputStream("C:\Users\Deepak\eclipse-workspace\SandeepAlertsProject\output\output.txt"));
-	}
-catch(FileNotFoundException e1)
-{
-e1.printStackTrace();
-}
-	System.setOut(out);
