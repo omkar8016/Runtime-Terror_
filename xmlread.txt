@@ -1,0 +1,81 @@
+package xmlreading;
+
+import java.io.File;
+
+import javax.xml.parsers.DocumentBuilder;
+
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import org.w3c.dom.Document;
+
+import org.w3c.dom.Element;
+
+import org.w3c.dom.Node;
+
+import org.w3c.dom.NodeList;
+
+public class XMLDataReading {
+	
+	public static String Cruisesship;
+
+	
+	public static String CruiseShipInput() {
+		try {
+
+			String filePath = "C:\\Users\\908289\\eclipse-workspace\\XMLJSONp\\CruiseInput.xml";
+			
+
+			File file = new File(filePath);
+
+			// These two lines of code create the instance of the DOM architecture of the
+			// XML file.
+
+			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+
+			DocumentBuilder dBuilder = dbf.newDocumentBuilder();
+
+			// These 2 lines of codes parse the XML file and normalize it for test data
+			// retrieval.
+
+			Document doc = dBuilder.parse(file);
+
+			doc.getDocumentElement().normalize();
+
+			// use JavaScript methods to get the texts
+
+			
+
+			NodeList nodeList = doc.getElementsByTagName("Details");
+
+			int tLength = nodeList.getLength();
+
+		
+
+			for (int i = 0; i < tLength; i++) {
+
+				Node node = nodeList.item(i);
+
+				if (node.getNodeType() == Node.ELEMENT_NODE) {
+
+					Element element = (Element) node;
+
+					
+
+					Cruisesship = element.getElementsByTagName("Cruisesship").item(0).getTextContent();
+
+				}
+
+			}
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+
+		}
+		return Cruisesship;
+	}
+	public static void main(String[] args) {
+		System.out.println(CruiseShipInput());
+	}
+
+}
